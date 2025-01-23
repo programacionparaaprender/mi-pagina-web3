@@ -270,7 +270,7 @@ export const contactosjs = [
   {
       id:1,
       href:"contacto_luis",
-      img:"./assets/images/Luis_Correa.webp",
+      img:"./assets/images/luiscorrea.jpeg",
       alt:"Luis",
       nombre:"Luis Correa",
       titulo:"Ingeniero en Computación",
@@ -280,7 +280,7 @@ export const contactosjs = [
    {
       id:2,
       href:"contacto_percy",
-      img:"./assets/images/Percy_Correa.webp",
+      img:"./assets/images/percycorrea.jpeg",
       alt:"Percy",
       nombre:"Percy Correa",
       titulo:"Ingeniero Civil",
@@ -290,7 +290,7 @@ export const contactosjs = [
   {
       id:3,
       href:"contacto_juan",
-      img:"./assets/images/Juan Correa.webp",
+      img:"./assets/images/juancorrea.jpeg",
       alt:"Juan",
       nombre:"Juan Correa",
       titulo:"Asesor Comercial",
@@ -300,7 +300,7 @@ export const contactosjs = [
   {
       id:4,
       href:"contacto_yolanda",
-      img:"./assets/images/Yolanda_Yancel.webp",
+      img:"./assets/images/yolandayancel.jpeg",
       alt:"Yolanda",
       nombre:"Yolanda Yancel",
       titulo:"Contador Publico",
@@ -310,7 +310,7 @@ export const contactosjs = [
   {
       id:5,
       href:"contacto_patricia",
-      img:"./assets/images/Patricia Correa.webp",
+      img:"./assets/images/patriciacorrea.jpeg",
       alt:"Patricia",
       nombre:"Patricia Correa",
       titulo:"Medico Cirujano",
@@ -320,7 +320,7 @@ export const contactosjs = [
   {
       id:6,
       href:"contacto_ana",
-      img:"./assets/images/Ana Correa.webp",
+      img:"./assets/images/anacorrea.jpeg",
       alt:"Patricia",
       nombre:"Ana Correa",
       titulo:"Ingenieria Quimica",
@@ -330,7 +330,7 @@ export const contactosjs = [
   {
     id:7,
     href:"contacto_jermany",
-    img:"./assets/images/Jermany Avile.PNG",
+    img:"./assets/images/jermanyavile.PNG",
     alt:"Jermani",
     nombre:"Jermani Avile",
     titulo:"Administración",
