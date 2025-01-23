@@ -330,7 +330,7 @@ export const contactosjs = [
   {
     id:7,
     href:"contacto_jermany",
-    img:"./assets/images/jermanyavile.PNG",
+    img:"./assets/images/jermanyavile.png",
     alt:"Jermani",
     nombre:"Jermani Avile",
     titulo:"Administración",
