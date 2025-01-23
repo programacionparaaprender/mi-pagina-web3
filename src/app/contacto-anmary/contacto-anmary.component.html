@@ -1,0 +1,125 @@
+<div style="width: 100%; height: 1rem; display: block;"></div>
+<!-- Page content -->
+<div class="container-fluid">
+       
+  <div class="row" *ngFor="let contacto of contactosjs">
+    <!-- <a target="_blank" href="{{contacto.url}}"></a> --> 
+        <div class="col-sm-6 col-md-3" *ngIf="contacto.id==8">
+          <a target="_blank" href="{{contacto.url}}">
+          <img src="{{contacto.img}}" style="width:100%">
+          </a>
+          <h3>{{contacto.nombre}}</h3>
+          <p>{{contacto.titulo}}</p>
+          <p>{{contacto.descripcion}}</p>
+        </div>
+    </div>
+  </div>
+
+<!-- Page content -->
+<div class="container-fluid" style="max-width:1564px">    
+<h1 style="text-align:center;">Ingeniería Mecanica</h1>
+<h2>
+PROYECTOS
+</h2>
+<h3>
+  <ul>
+      <li>Levantamientos</li>
+      <li>Documentos</li>
+  </ul>
+</h3>
+<h2>
+ASESORÍA (A nivel nacional)
+</h2>
+<h3>
+  <ul>
+      <li>Levantamientos</li>
+      <li>Presupuestos</li>
+      <li>Programas de trabajo</li>
+  </ul>
+</h3>
+</div>
+
+<!-- Page content -->
+<div class="container-fluid" style="max-width:1564px">
+<div class="card" style="width: 100%;">
+<div class="card-body">
+
+  <button 
+    class="btn btn-secondary" 
+    type="button" 
+    data-bs-toggle="collapse" 
+    data-bs-target="#collapTapExperiencia" 
+    aria-expanded="false" 
+    aria-controls="collapTapExperiencia">
+    Experiencia
+  </button>
+  
+  <br>
+  <br>
+  <div class="collapse" id="collapTapExperiencia">
+
+  </div>
+  <br>
+  <hr>
+
+
+</div>  
+<br>
+<hr> 
+<!-- Modal -->
+<div 
+class="modal fade" 
+id="exampleModal" 
+tabindex="-1" 
+role="dialog" 
+aria-labelledby="exampleModalLabel" 
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+  <div class="modal-header">
+    <h5 class="modal-title" id="exampleModalLabel">Tecnologías empleadas</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  <div class="modal-body">
+    <div 
+      *ngFor="let tec of tecnologia">
+      <div class="row">
+        <div 
+          class="col-sm-3 col-md-3">
+          {{tec.nombre}}
+        </div>
+        <div 
+          class="col-sm-3 col-md-3">
+          <!-- <div class="progress">
+            <div 
+              title="{{tec.nombre}} - {{tec.porcentaje}}%"
+              class="progress-bar" 
+              role="progressbar" 
+              aria-valuenow="{{ tec.porcentaje }}" 
+              aria-valuemin="0" 
+              aria-valuemax="100">
+              {{tec.porcentaje}}
+            </div> -->
+          </div>
+        </div>
+        <div 
+          class="col-sm-3 col-md-3">
+          {{tec.porcentaje}}%
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button 
+      type="button" 
+      class="btn btn-danger" 
+      data-bs-dismiss="modal">
+      Close
+    </button>
+  </div>
+</div>
+</div>
+
+</div>   
+</div>
+
