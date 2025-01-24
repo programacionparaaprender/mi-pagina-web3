@@ -6,11 +6,10 @@ import { RouterModule } from '@angular/router';
 
 
 @Component({
-  selector: 'app-servicios-contacto',
-  standalone: true,
-  imports:[CommonModule, RouterModule],
-  templateUrl: './servicios-contacto.component.html',
-  styleUrls: ['./servicios-contacto.component.css']
+    selector: 'app-servicios-contacto',
+    imports: [CommonModule, RouterModule],
+    templateUrl: './servicios-contacto.component.html',
+    styleUrls: ['./servicios-contacto.component.css']
 })
 
 

@@ -18,11 +18,10 @@ import { CommonModule } from '@angular/common';
 
 
 @Component({
-  standalone: true,
-  selector: 'app-agencia-profesionales',
-  imports:[CommonModule],
-  templateUrl: './agencia-profesionales.component.html',
-  styleUrls: ['./agencia-profesionales.component.css']
+    selector: 'app-agencia-profesionales',
+    imports: [CommonModule],
+    templateUrl: './agencia-profesionales.component.html',
+    styleUrls: ['./agencia-profesionales.component.css']
 })
 
 

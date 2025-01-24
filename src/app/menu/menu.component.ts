@@ -16,11 +16,10 @@ import { cursosjs, experiencia_luis, contactosjs, emprender_internetjs, trabajo_
 
 
 @Component({
-  selector: 'app-menu',
-  standalone:true,
-  imports:[RouterModule, CommonModule],
-  templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.css']
+    selector: 'app-menu',
+    imports: [RouterModule, CommonModule],
+    templateUrl: './menu.component.html',
+    styleUrls: ['./menu.component.css']
 })
 
 

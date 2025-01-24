@@ -5,11 +5,10 @@ import { CommonModule } from '@angular/common';
 
 
 @Component({
-  selector: 'app-nosotros',
-  standalone: true,
-  imports:[CommonModule],
-  templateUrl: './nosotros.component.html',
-  styleUrls: ['./nosotros.component.css']
+    selector: 'app-nosotros',
+    imports: [CommonModule],
+    templateUrl: './nosotros.component.html',
+    styleUrls: ['./nosotros.component.css']
 })
 
 

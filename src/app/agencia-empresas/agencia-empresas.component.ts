@@ -9,11 +9,10 @@ import { CommonModule } from '@angular/common';
 
 
 @Component({
-  standalone: true,
-  selector: 'app-agencia-empresas',
-  imports:[CommonModule],
-  templateUrl: './agencia-empresas.component.html',
-  styleUrls: ['./agencia-empresas.component.css']
+    selector: 'app-agencia-empresas',
+    imports: [CommonModule],
+    templateUrl: './agencia-empresas.component.html',
+    styleUrls: ['./agencia-empresas.component.css']
 })
 
 

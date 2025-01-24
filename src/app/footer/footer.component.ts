@@ -16,11 +16,10 @@ import { cursosjs, experiencia_luis, contactosjs, emprender_internetjs, trabajo_
 
 
 @Component({
-  selector: 'app-footer',
-  standalone:true,
-  imports:[CommonModule],
-  templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.css']
+    selector: 'app-footer',
+    imports: [CommonModule],
+    templateUrl: './footer.component.html',
+    styleUrls: ['./footer.component.css']
 })
 
 

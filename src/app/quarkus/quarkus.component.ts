@@ -3,11 +3,10 @@ import { Component} from '@angular/core';
 
 
 @Component({
-  selector: 'app-quarkus',
-  standalone: true,
-  imports:[CommonModule],
-  templateUrl: './quarkus.component.html',
-  styleUrls: ['./quarkus.component.css']
+    selector: 'app-quarkus',
+    imports: [CommonModule],
+    templateUrl: './quarkus.component.html',
+    styleUrls: ['./quarkus.component.css']
 })
 export class QuarkusComponent {
   title = '';

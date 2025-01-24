@@ -15,11 +15,10 @@ import { cursosjs, experiencia_luis, contactosjs, emprender_internetjs, trabajo_
 
 
 @Component({
-  selector: 'app-contacto-empresa',
-  standalone: true,
-  imports:[CommonModule],
-  templateUrl: './contacto-empresa.component.html',
-  styleUrls: ['./contacto-empresa.component.css']
+    selector: 'app-contacto-empresa',
+    imports: [CommonModule],
+    templateUrl: './contacto-empresa.component.html',
+    styleUrls: ['./contacto-empresa.component.css']
 })
 
 

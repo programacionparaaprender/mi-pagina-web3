@@ -10,11 +10,10 @@ import { CommonModule } from '@angular/common';
 
 
 @Component({
-  selector: 'app-contacto-anmary',
-  standalone: true,
-  imports:[CommonModule],
-  templateUrl: './contacto-anmary.component.html',
-  styleUrls: ['./contacto-anmary.component.css']
+    selector: 'app-contacto-anmary',
+    imports: [CommonModule],
+    templateUrl: './contacto-anmary.component.html',
+    styleUrls: ['./contacto-anmary.component.css']
 })
 
 

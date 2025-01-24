@@ -15,11 +15,10 @@ import { CommonModule } from '@angular/common';
 
 
 @Component({
-  selector: 'app-contacto-percy',
-  standalone: true,
-  imports:[CommonModule],
-  templateUrl: './contacto-percy.component.html',
-  styleUrls: ['./contacto-percy.component.css']
+    selector: 'app-contacto-percy',
+    imports: [CommonModule],
+    templateUrl: './contacto-percy.component.html',
+    styleUrls: ['./contacto-percy.component.css']
 })
 
 

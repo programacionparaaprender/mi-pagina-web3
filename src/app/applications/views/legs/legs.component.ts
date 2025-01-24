@@ -4,11 +4,10 @@ import { CommonModule } from '@angular/common';
 
 
 @Component({
-  selector: 'app-legs',
-  standalone: true,
-  imports:[CommonModule],
-  templateUrl: './legs.component.html',
-  styleUrls: ['./legs.component.css']
+    selector: 'app-legs',
+    imports: [CommonModule],
+    templateUrl: './legs.component.html',
+    styleUrls: ['./legs.component.css']
 })
 export class LegsComponent {
   title = '';

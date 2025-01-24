@@ -6,11 +6,10 @@ import { CommonModule } from '@angular/common';
 
 
 @Component({
-  selector: 'app-menu-nuevo',
-  standalone: true,
-  imports:[MainComponent, MaestriaSanMarcosComponent, CommonModule],
-  templateUrl: './menu-nuevo.component.html',
-  styleUrls: ['./menu-nuevo.component.css']
+    selector: 'app-menu-nuevo',
+    imports: [MainComponent, MaestriaSanMarcosComponent, CommonModule],
+    templateUrl: './menu-nuevo.component.html',
+    styleUrls: ['./menu-nuevo.component.css']
 })
 export class MenuNuevoComponent  {
   @Input() texto = 'login';

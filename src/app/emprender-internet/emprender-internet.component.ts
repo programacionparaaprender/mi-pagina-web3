@@ -16,11 +16,10 @@ import { CommonModule } from '@angular/common';
 
 
 @Component({
-  selector: 'app-emprender-internet',
-  standalone: true,
-  imports:[CommonModule],
-  templateUrl: './emprender-internet.component.html',
-  styleUrls: ['./emprender-internet.component.css']
+    selector: 'app-emprender-internet',
+    imports: [CommonModule],
+    templateUrl: './emprender-internet.component.html',
+    styleUrls: ['./emprender-internet.component.css']
 })
 
 

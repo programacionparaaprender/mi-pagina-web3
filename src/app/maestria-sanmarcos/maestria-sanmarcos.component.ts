@@ -16,11 +16,10 @@ import { CommonModule } from '@angular/common';
 
 
 @Component({
-  selector: 'app-maestria-sanmarcos',
-  standalone: true,
-  imports:[CommonModule],
-  templateUrl: './maestria-sanmarcos.component.html',
-  styleUrls: ['./maestria-sanmarcos.component.css']
+    selector: 'app-maestria-sanmarcos',
+    imports: [CommonModule],
+    templateUrl: './maestria-sanmarcos.component.html',
+    styleUrls: ['./maestria-sanmarcos.component.css']
 })
 
 

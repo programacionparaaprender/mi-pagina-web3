@@ -4,11 +4,10 @@ import { CommonModule } from '@angular/common';
 
 
 @Component({
-  selector: 'app-contacto-jermany',
-  standalone: true,
-  imports:[CommonModule],
-  templateUrl: './contacto-jermany.component.html',
-  styleUrls: ['./contacto-jermany.component.css']
+    selector: 'app-contacto-jermany',
+    imports: [CommonModule],
+    templateUrl: './contacto-jermany.component.html',
+    styleUrls: ['./contacto-jermany.component.css']
 })
 
 

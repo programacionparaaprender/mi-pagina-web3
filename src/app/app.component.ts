@@ -14,16 +14,15 @@ export interface Brand {
 Amplify.configure(outputs);
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
-  imports: [
-    RouterOutlet, 
-    //TodosComponent, 
-    MenuComponent,
-    FooterComponent
-  ],
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.css',
+    imports: [
+        RouterOutlet,
+        //TodosComponent, 
+        MenuComponent,
+        FooterComponent
+    ]
 })
 export class AppComponent {
   title = 'mi-pagina-web3';

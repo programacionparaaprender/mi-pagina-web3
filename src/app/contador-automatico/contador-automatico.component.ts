@@ -3,11 +3,10 @@ import { Component } from '@angular/core';
 import { timer } from 'rxjs';
 
 @Component({
-  selector: 'app-contador-automatico',
-  standalone: true,
-  imports:[CommonModule],
-  templateUrl: './contador-automatico.component.html',
-  styleUrls: ['./contador-automatico.component.css']
+    selector: 'app-contador-automatico',
+    imports: [CommonModule],
+    templateUrl: './contador-automatico.component.html',
+    styleUrls: ['./contador-automatico.component.css']
 })
 export class ContadorAutomaticoComponent {
   tiempo = 0;

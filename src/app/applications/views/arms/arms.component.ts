@@ -3,11 +3,10 @@ import { Component} from '@angular/core';
 
 
 @Component({
-  selector: 'app-arms',
-  standalone: true,
-  imports:[CommonModule],
-  templateUrl: './arms.component.html',
-  styleUrls: ['./arms.component.css']
+    selector: 'app-arms',
+    imports: [CommonModule],
+    templateUrl: './arms.component.html',
+    styleUrls: ['./arms.component.css']
 })
 export class ArmsComponent {
   title = '';

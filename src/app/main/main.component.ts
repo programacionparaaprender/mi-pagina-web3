@@ -7,11 +7,10 @@ import { ProyectosComponent } from '../proyectos/proyectos.component';
 
 
 @Component({
-  selector: 'app-main',
-  standalone: true,
-  imports:[BannerComponent, ServiciosContactoComponent, NosotrosComponent, ProyectosComponent],
-  templateUrl: './main.component.html',
-  styleUrls: ['./main.component.css']
+    selector: 'app-main',
+    imports: [BannerComponent, ServiciosContactoComponent, NosotrosComponent, ProyectosComponent],
+    templateUrl: './main.component.html',
+    styleUrls: ['./main.component.css']
 })
 
 

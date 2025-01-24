@@ -4,11 +4,10 @@ import { CommonModule } from '@angular/common';
 
 
 @Component({
-  selector: 'app-contacto-ana',
-  standalone: true,
-  imports:[CommonModule],
-  templateUrl: './contacto-ana.component.html',
-  styleUrls: ['./contacto-ana.component.css']
+    selector: 'app-contacto-ana',
+    imports: [CommonModule],
+    templateUrl: './contacto-ana.component.html',
+    styleUrls: ['./contacto-ana.component.css']
 })
 
 

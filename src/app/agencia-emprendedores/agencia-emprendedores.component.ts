@@ -16,11 +16,10 @@ import { CommonModule } from '@angular/common';
 
 
 @Component({
-  standalone: true,
-  selector: 'app-agencia-emprendedores',
-  imports:[CommonModule],
-  templateUrl: './agencia-emprendedores.component.html',
-  styleUrls: ['./agencia-emprendedores.component.css']
+    selector: 'app-agencia-emprendedores',
+    imports: [CommonModule],
+    templateUrl: './agencia-emprendedores.component.html',
+    styleUrls: ['./agencia-emprendedores.component.css']
 })
 
 

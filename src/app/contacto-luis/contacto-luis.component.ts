@@ -16,11 +16,10 @@ import { CommonModule } from '@angular/common';
 
 
 @Component({
-  selector: 'app-contacto-luis',
-  standalone: true,
-  imports:[CommonModule],
-  templateUrl: './contacto-luis.component.html',
-  styleUrls: ['./contacto-luis.component.css']
+    selector: 'app-contacto-luis',
+    imports: [CommonModule],
+    templateUrl: './contacto-luis.component.html',
+    styleUrls: ['./contacto-luis.component.css']
 })
 
 
