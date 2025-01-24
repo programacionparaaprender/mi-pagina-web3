@@ -5,7 +5,7 @@ import { By } from '@angular/platform-browser';
 import { RouterTestingModule } from '@angular/router/testing';
 import { QuarkusComponent } from './quarkus.component';
 import { AppRoutingModule } from 'src/app/app-routing.module';
-import { HttpClientModule } from '@angular/common/http';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { timer } from 'rxjs';
 describe('LogintobepageComponent', () => {
@@ -13,16 +13,14 @@ describe('LogintobepageComponent', () => {
 	let fixture: ComponentFixture<QuarkusComponent>;
 	beforeEach(async () => {
 		await TestBed.configureTestingModule({
-			schemas: [CUSTOM_ELEMENTS_SCHEMA],
-			imports: [
-				HttpClientModule,
-				RouterTestingModule,
-				AppRoutingModule,
-				FormsModule,
-				ReactiveFormsModule
-			],
-			declarations: [QuarkusComponent]
-		}).compileComponents();
+    schemas: [CUSTOM_ELEMENTS_SCHEMA],
+    declarations: [QuarkusComponent],
+    imports: [RouterTestingModule,
+        AppRoutingModule,
+        FormsModule,
+        ReactiveFormsModule],
+    providers: [provideHttpClient(withInterceptorsFromDi())]
+}).compileComponents();
 		fixture = TestBed.createComponent(QuarkusComponent);
 		component = fixture.componentInstance;
 		fixture.detectChanges();
